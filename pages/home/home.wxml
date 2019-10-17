@@ -1,3 +1,11 @@
 <!--pages/home/home.wxml-->
 <text class="title">hello world</text>
 <button size="mini">按钮</button>
+
+<!-- 只能做展示用 -->
+<open-data type="userNickName"></open-data> 
+
+<view bindtap="handleViewClick">{{message}}</view>
+<view wx:for='{{list}}'>{{item.title}}</view>
+
+
