@@ -1,0 +1,6 @@
+/* components/cpn1/cpn1.wxss */
+.box{
+  background: red;
+  width:100rpx;
+  height: 100rpx;
+}
