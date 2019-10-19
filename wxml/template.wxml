@@ -1,0 +1,7 @@
+<!-- 不能递归导入 -->
+<!-- <import src='/wxml/abc.wxml'/> -->
+
+<template name='contentItem'>
+  <button size='mini'>{{btnText}}</button>
+  <view>{{content}}</view>
+</template>
